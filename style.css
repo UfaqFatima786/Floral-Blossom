@@ -185,7 +185,7 @@ body {
 }
 
 .flower-card {
-    background: #f3a5bf;
+    background: #f1c3d3;
     border-radius: 20px;
     overflow: hidden;
     transition: .4s;
@@ -231,6 +231,7 @@ body {
 }
 
 .flower-content h4 {
+    color: #000000;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -263,7 +264,7 @@ body {
 }
 
 .offer-section {
-    background: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600") center/cover fixed;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8fflXo2nqNDBXqvewnyD9l37auazq2hN1alCZL3k2GQ&s=10") center/cover fixed;
     position: relative;
     padding: 120px 0;
 }
