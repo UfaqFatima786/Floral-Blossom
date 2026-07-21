@@ -1,0 +1,25 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background: linear-gradient(135deg, #0e3331, #034a5c, #00afaf);
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #38a2aa, #015858, #009292);
+    border-radius: 20px;
+    box-shadow: #9aecbc;
+}
+.nav-link{
+color: black;
+}
+.nav-link:hover{
+    color: rgb(80, 80, 80);
+}
