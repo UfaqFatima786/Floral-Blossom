@@ -65,6 +65,108 @@ body {
     border-radius: 50%;
 }
 
+.about-hero {
+    background: linear-gradient(135deg, #f1bbc6, #f79db8);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
+}
+
+
+.about-hero h1 {
+    color: rgb(179, 36, 102);
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
+    transition: all 0.4s ease;
+}
+
+.about-hero h1:hover {
+    cursor: pointer;
+    color: rgb(88, 1, 55);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: Georgia, serif;
+}
+
+.about-hero p {
+    margin: 25px 0;
+    font-size: 18px;
+    color: #666;
+
+}
+
+.btn-pink {
+    background: #ff4f81;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 40px;
+}
+
+.our-story {
+    background: linear-gradient(135deg, #f1bbc6, #f79db8);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
+}
+
+.counter-box {
+    background: #fff7f9;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+}
+
+.counter-box h3 {
+    color: #ff4f81;
+    font-weight: 700;
+}
+    
+.values {
+    padding: 90px 0;
+    background: linear-gradient(135deg, #f1bbc6, #f79db8);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
+}
+
+.value-card {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    transition: .4s;
+}
+
+.value-card:hover {
+    transform: translateY(-8px);
+}
+
+.value-card i {
+    font-size: 55px;
+    color: #ff4f81;
+    margin-bottom: 20px;
+    display: block;
+}
+
+@media(max-width:768px) {
+
+    .about-hero {
+        text-align: center;
+    }
+
+    .about-hero h1 {
+        font-size: 38px;
+    }
+
+    .about-hero img {
+        margin-top: 40px;
+    }
+
+}
 
 .footer {
     background: linear-gradient(135deg, #f7c2e7, #fc99c2, #fc5e92);
@@ -148,6 +250,18 @@ body {
 }
 
 @media(max-width:768px) {
+    .about-hero {
+        text-align: center;
+    }
+
+    .about-hero h1 {
+        font-size: 38px;
+    }
+
+    .about-hero img {
+        margin-top: 40px;
+    }
+
     .footer {
         padding: 50px 20px;
     }
@@ -188,6 +302,7 @@ body {
         align-items: center;
         gap: 15px;
     }
+
     .footer-bottom {
         text-align: center;
         margin-top: 30px;
