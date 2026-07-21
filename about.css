@@ -131,7 +131,7 @@ body {
 
 .footer-bottom {
     text-align: center;
-    border-top: 1px solid #333;
+    border-top: 1px solid #000000;
     margin-top: 40px;
     padding-top: 20px;
 }
@@ -188,7 +188,6 @@ body {
         align-items: center;
         gap: 15px;
     }
-
     .footer-bottom {
         text-align: center;
         margin-top: 30px;
