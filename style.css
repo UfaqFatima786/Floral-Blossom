@@ -185,45 +185,36 @@ body {
 }
 
 .flower-card {
-
-    background: #fff;
+    background: #f3a5bf;
     border-radius: 20px;
     overflow: hidden;
     transition: .4s;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
-
 }
 
 .flower-card:hover {
-
+    cursor: pointer;
     transform: translateY(-10px);
-
 }
 
 .flower-img {
-
     position: relative;
     overflow: hidden;
-
 }
 
 .flower-img img {
-
     width: 100%;
     height: 300px;
     object-fit: cover;
     transition: .5s;
-
 }
 
 .flower-card:hover img {
-
+    cursor: pointer;
     transform: scale(1.1);
-
 }
 
 .badge-sale {
-
     position: absolute;
     top: 15px;
     left: 15px;
@@ -232,40 +223,30 @@ body {
     padding: 6px 15px;
     border-radius: 30px;
     font-size: 14px;
-
 }
 
 .flower-content {
-
     padding: 25px;
     text-align: center;
-
 }
 
 .flower-content h4 {
-
     font-weight: 600;
     margin-bottom: 15px;
-
 }
 
 .price span {
-
     color: #ff4f81;
     font-size: 22px;
     font-weight: 700;
-
 }
 
 .price del {
-
     color: #999;
     margin-left: 8px;
-
 }
 
 .btn-cart {
-
     margin-top: 20px;
     width: 100%;
     border: none;
@@ -274,13 +255,11 @@ body {
     padding: 12px;
     border-radius: 40px;
     transition: .4s;
-
 }
 
 .btn-cart:hover {
-
+    cursor: pointer;
     background: #e6356d;
-
 }
 
 .why {
@@ -291,44 +270,34 @@ body {
 }
 
 .why-box {
-
     text-align: center;
     padding: 35px 25px;
     background: #fff7f9;
     border-radius: 20px;
     transition: .4s;
-
 }
 
 .why-box:hover {
-
+    cursor: pointer;
     transform: translateY(-8px);
     box-shadow: 0 15px 30px rgba(255, 79, 129, .25);
-
 }
 
 .why-box i {
-
     font-size: 55px;
     color: #ff4f81;
     margin-bottom: 20px;
     display: block;
-
 }
 
 .why-box h5 {
-
     font-weight: 600;
     margin-bottom: 12px;
-
 }
 
 .why-box p {
-
     color: #666;
 }
-
-/* Responsive */
 
 @media(max-width:768px) {
 
