@@ -33,6 +33,32 @@ body {
     color: rgb(206, 205, 205);
 }
 
+.page-section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 15px 0 25px;
+    padding: 0 15px;
+}
+
+.page-section-link {
+    color: #000;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.384);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 40px rgba(78, 1, 53, 0.616);
+    transition: .5s;
+}
+
+.page-section-link:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.24);
+    color: #1d1d1d;
+    transform: scale(1.05);
+}
+
 .logo-1 {
     width: 70px;
     height: 70px;
@@ -353,10 +379,11 @@ body {
 }
 
 .team-section {
- padding: 90px 0;
+    padding: 90px 0;
     background: linear-gradient(135deg, #f1bbc6, #f79db8);
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);}
+    box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
+}
 
 .team-tag {
     display: inline-block;
@@ -397,6 +424,7 @@ body {
     cursor: pointer;
     transform: scale(1.08);
 }
+
 .team-content {
     padding: 30px;
     text-align: center;
@@ -439,7 +467,7 @@ body {
 }
 
 .team-social a:hover {
-cursor: pointer;
+    cursor: pointer;
     background: #ff4f81;
     color: #fff;
     transform: translateY(-5px);
