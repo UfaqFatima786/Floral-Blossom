@@ -349,44 +349,26 @@ body {
     color: #ff4f81;
 }
 
-/*================ TEAM SECTION =================*/
-
 .team-section {
-
     background: #fff7f9;
-
 }
 
 .team-tag {
-
     display: inline-block;
-
     background: #ff4f81;
-
     color: #fff;
-
     padding: 8px 22px;
-
     border-radius: 30px;
-
     font-weight: 600;
-
     margin-bottom: 18px;
-
 }
 
 .team-card {
-
     background: #fff;
-
     border-radius: 25px;
-
     overflow: hidden;
-
     transition: .4s;
-
     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
-
 }
 
 .team-card:hover {
@@ -407,6 +389,7 @@ body {
 }
 
 .team-card:hover img {
+    cursor: pointer;
     transform: scale(1.08);
 }
 .team-content {
