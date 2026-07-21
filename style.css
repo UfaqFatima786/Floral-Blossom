@@ -262,6 +262,201 @@ body {
     background: #e6356d;
 }
 
+.offer-section {
+    background: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600") center/cover fixed;
+    position: relative;
+    padding: 120px 0;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, .55);
+    padding: 100px 0;
+}
+
+.offer-tag {
+    display: inline-block;
+    background: #ff4f81;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offer-section h2 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.offer-section p {
+    color: #f1f1f1;
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.time-box {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-box h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.time-box span {
+    color: #fff;
+    font-size: 15px;
+}
+
+.offer-btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff4f81;
+    color: white;
+    padding: 15px 38px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.offer-btn:hover {
+    cursor: pointer;
+    background: white;
+    color: #ff4f81;
+}
+
+/*================ TEAM SECTION =================*/
+
+.team-section {
+
+    background: #fff7f9;
+
+}
+
+.team-tag {
+
+    display: inline-block;
+
+    background: #ff4f81;
+
+    color: #fff;
+
+    padding: 8px 22px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+    margin-bottom: 18px;
+
+}
+
+.team-card {
+
+    background: #fff;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    transition: .4s;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+
+}
+
+.team-card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(255, 79, 129, .25);
+}
+
+.team-img {
+    overflow: hidden;
+}
+
+.team-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.team-card:hover img {
+    transform: scale(1.08);
+}
+.team-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.team-content h4 {
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.designation {
+    color: #ff4f81;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.team-content p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.team-social {
+    margin-top: 20px;
+}
+
+.team-social a {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffe4ec;
+    color: #ff4f81;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 5px;
+    transition: .3s;
+    font-size: 20px;
+}
+
+.team-social a:hover {
+cursor: pointer;
+    background: #ff4f81;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
 .why {
     padding: 90px 0;
     background: linear-gradient(135deg, #f1bbc6, #f79db8);
@@ -297,22 +492,6 @@ body {
 
 .why-box p {
     color: #666;
-}
-
-@media(max-width:768px) {
-
-    .section-title {
-
-        font-size: 32px;
-
-    }
-
-    .flower-img img {
-
-        height: 250px;
-
-    }
-
 }
 
 .footer {
@@ -411,6 +590,46 @@ body {
 }
 
 @media(max-width:768px) {
+    .offer-section h2 {
+        font-size: 38px;
+    }
+
+    .offer-section {
+        padding: 80px 0;
+    }
+
+    .overlay {
+        padding: 80px 20px;
+    }
+
+    .time-box {
+        width: 90px;
+        height: 90px;
+    }
+
+    .time-box h3 {
+        font-size: 28px;
+    }
+
+    .offer-section p {
+        font-size: 16px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .flower-img img {
+        height: 250px;
+    }
+
+    .team-img img {
+        height: 300px;
+    }
+
+    .team-content {
+        padding: 25px;
+    }
 
     .hero {
         padding: 70px 0;
@@ -430,6 +649,43 @@ body {
 }
 
 @media(max-width:576px) {
+    .offer-section h2 {
+        font-size: 30px;
+    }
+
+    .countdown {
+        gap: 12px;
+    }
+
+    .time-box {
+        width: 75px;
+        height: 75px;
+    }
+
+    .time-box h3 {
+        font-size: 22px;
+    }
+
+    .time-box span {
+        font-size: 12px;
+    }
+
+    .offer-btn {
+        padding: 12px 28px;
+        font-size: 16px;
+    }
+
+    .team-img img {
+        height: 260px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-subtitle {
+        font-size: 15px;
+    }
 
     .hero h1 {
         font-size: 30px;
