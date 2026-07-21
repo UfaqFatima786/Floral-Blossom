@@ -46,7 +46,7 @@ body{
 
 .hero{
     padding:90px 0;
-    background:linear-gradient(135deg,#fff5f7,#ffe4ec);
+    background:linear-gradient(135deg,#f1bbc6,#f17b9e);
 }
 
 .hero-tag{
@@ -151,61 +151,6 @@ body{
     box-shadow:0 20px 35px rgba(255,79,129,.25);
 }
 
-/* Responsive */
-
-@media(max-width:992px){
-
-.hero{
-    text-align:center;
-}
-
-.hero h1{
-    font-size:46px;
-}
-
-.hero-img{
-    margin-top:30px;
-}
-
-}
-
-@media(max-width:768px){
-
-.hero{
-    padding:70px 0;
-}
-
-.hero h1{
-    font-size:36px;
-}
-
-.hero p{
-    font-size:16px;
-}
-
-.categories h2{
-    font-size:32px;
-}
-
-}
-
-@media(max-width:576px){
-
-.hero h1{
-    font-size:30px;
-}
-
-.btn-shop,
-.btn-outline-custom{
-    width:100%;
-    margin-top:15px;
-}
-
-.hero-img{
-    width:100%;
-}
-
-}
 
 .footer {
     background: linear-gradient(135deg, #f7c2e7, #58013b, #c40093);
@@ -280,4 +225,54 @@ body{
 .footer-bottom p {
     color: #aaa;
     font-size: 14px;
+}
+
+
+@media(max-width:992px){
+
+    .navbar{
+        text-align: center;
+    }
+.hero{
+    text-align:center;
+}
+.hero h1{
+    font-size:46px;
+}
+.hero-img{
+    margin-top:30px;
+}
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding:70px 0;
+}
+.hero h1{
+    font-size:36px;
+}
+.hero p{
+    font-size:16px;
+}
+.categories h2{
+    font-size:32px;
+}
+}
+
+@media(max-width:576px){
+
+.hero h1{
+    font-size:30px;
+}
+
+.btn-shop,
+.btn-outline-custom{
+    width:100%;
+    margin-top:15px;
+}
+
+.hero-img{
+    width:100%;
+}
 }
