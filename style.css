@@ -402,7 +402,9 @@ body {
     transition: .4s;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
 }
-
+.team-content-h4{
+    color: #501b3c;
+}
 .team-card:hover {
     cursor: pointer;
     transform: translateY(-10px);

@@ -112,36 +112,60 @@ body {
     box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
 }
 
+.story h2 {
+    font-weight: 700;
+    color: #49012b;
+    text-align: center;
+}
+.story p {
+    color: #130909;
+}
+
 .counter-box {
-    background: #fff7f9;
+    background: #fcd6df;
     padding: 25px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.432);
 }
 
 .counter-box h3 {
-    color: #ff4f81;
+    color: #ac3355;
     font-weight: 700;
 }
-    
+
+.counter-box p {
+    color: #440030;
+}
+
 .values {
     padding: 90px 0;
     background: linear-gradient(135deg, #f1bbc6, #f79db8);
     border-radius: 20px;
     box-shadow: 0 20px 40px rgba(78, 1, 54, 0.39);
 }
-
+.text-center h2{
+    color: #49012b;
+}
+.text-center p{
+    color: #49012b;
+}
 .value-card {
-    background: white;
+    background: rgb(248, 211, 211);
     padding: 40px;
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
     transition: .4s;
 }
-
+.value-card h4{
+    color: #501b3c;
+}
+.value-card p{
+    color: #501b3c;
+}
 .value-card:hover {
+    cursor: pointer;
     transform: translateY(-8px);
 }
 
