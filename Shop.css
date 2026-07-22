@@ -66,7 +66,7 @@ body {
 }
 
 .shop-hero {
-    background: linear-gradient(rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0.39)),
+    background: linear-gradient(rgba(255, 255, 255, 0.267), rgba(255, 255, 255, 0.253)),
         url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1600");
     background-size: cover;
     background-position: center;
