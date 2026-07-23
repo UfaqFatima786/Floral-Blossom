@@ -327,39 +327,6 @@ body {
     margin-bottom: 40px;
 }
 
-.countdown {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
-
-.time-box {
-    width: 120px;
-    height: 120px;
-    background: rgba(255, 255, 255, .15);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, .2);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.time-box h3 {
-    color: #fff;
-    font-size: 40px;
-    font-weight: 700;
-    margin: 0;
-}
-
-.time-box span {
-    color: #fff;
-    font-size: 15px;
-}
-
 .offer-btn {
     display: inline-block;
     text-decoration: none;
@@ -396,7 +363,7 @@ body {
 }
 
 .team-card {
-    background: #fff;
+    background: #ffd2d2;
     border-radius: 25px;
     overflow: hidden;
     transition: .4s;
@@ -459,8 +426,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #ffe4ec;
-    color: #ff4f81;
+    background: #c0adb3;
+    color: #f8366d;
     border-radius: 50%;
     text-decoration: none;
     margin: 5px;

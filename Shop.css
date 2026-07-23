@@ -75,9 +75,24 @@ body {
 }
 
 .shop-hero h1 {
-    font-size: 60px;
+    color: rgb(179, 36, 102);
+    font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-family: Georgia, serif;
+    transition: all 0.4s ease;
+}
+
+
+.shop-hero h1:hover {
+    cursor: pointer;
+    color: rgb(88, 1, 55);
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-family: Georgia, serif;
 }
 
 .shop-hero p {

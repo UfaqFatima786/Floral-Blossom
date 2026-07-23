@@ -64,18 +64,22 @@
         </section>
         <section class="py-4">
             <div class="container text-center">
-                <button class="btn category-btn active-btn">All</button>
-                <button class="btn category-btn">Bouquets</button>
+                <!-- <button class="btn category-btn active-btn">All</button>
+                <button class="btn bouquets category-btn">Bouquets</button>
                 <button class="btn category-btn">Sunflowers</button>
-                <button class="btn category-btn">Decorations</button>
+                <button class="btn category-btn">Decorations</button> -->
+                <button id="allBtn" class="btn category-btn active-btn">All</button>
+                <button id="bouquetBtn" class="btn category-btn">Bouquets</button>
+                <button id="sunBtn" class="btn category-btn">Sunflowers</button>
+                <button id="decorBtn" class="btn category-btn">Decorations</button>
             </div>
         </section>
         <section class="shop-products py-5">
             <div class="container">
-                <h2 class="section-title text-center mb-5">
+                <h2 id="bouquetTitle" class="section-title text-center mb-5">
                     Beautiful Bouquets
                 </h2>
-                <div class="row g-4">
+                <div class="row g-4 products-grid" id="productsGrid">
                     <div class="col-lg-3 col-md-6">
                         <div class="product-card">
                             <span class="sale-badge">Best Seller</span>
@@ -170,10 +174,10 @@
                         </div>
                     </div>
 
-                    <h2 class="section-title text-center my-5">
+                    <h2 id="sunflowerTitle" class="section-title text-center my-5">
                         Sunflower Collection
                     </h2>
-                    <div class="row g-4">
+                    <div class="row g-4" id="sunflowerSection">
                         <div class="col-lg-3 col-md-6">
                             <div class="product-card">
                                 <span class="sale-badge">Best Seller</span>
@@ -255,7 +259,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flower-decoration" id="decorations">
+                    <div class="flower-decoration" id="decorSection">
                         <h2 class="section-title text-center my-5">
                             Flower Decorations
                         </h2>
@@ -558,7 +562,7 @@
             <div class="footer-col">
                 <h2>Quick Links</h2>
                 <ul>
-                   <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="Shop.html">Shop</a></li>
                     <li><a href="contact.html">Contact</a></li>
